@@ -1,0 +1,25 @@
+.glasses_store {
+  background-image: url(../../public/glassesImage/background.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .store_layout {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+
+    .store_title {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .glasses_position {
+      top: 25%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .description {
+      line-height: 1.5;
+    }
+  }
+}
